@@ -56,5 +56,13 @@ font-size: 15px;
   .boton{
  	justify-content: center;
 
- } 
+ }
+ 
+ .btn-small {
+    height: 14px;
+    line-height: 14px;
+    padding: 0 0.5rem;
+    font-size: 10px;
+}
+} 
 }
