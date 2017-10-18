@@ -24,3 +24,37 @@ div[class*="bloque"]{
   border-radius: 15px;
   width: 880px;
 }
+
+.blog-turismo{ 
+	background-color: rgba(235,236,230,0.95);
+ }
+
+/*efecos de formulario */
+ .formulario {
+ border: 0.1rem solid #ffffff;
+  border-radius: 15px;
+  width: 880px;
+ color:white;
+ margin-top: 20px;
+ background-color: #82b1ff;
+ }
+
+.boton{
+ 	float: right;
+
+ } 
+
+ @media (max-width: 600px) {
+ 	button
+  .formulario{
+    text-align: center;
+  }
+
+  .titulo{
+font-size: 15px;
+  }
+  .boton{
+ 	justify-content: center;
+
+ } 
+}
