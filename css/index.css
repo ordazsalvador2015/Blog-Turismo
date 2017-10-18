@@ -1,0 +1,26 @@
+.imagenfondo{
+ background: #00bfff url("../img/f-turismo.jpg") no-repeat fixed center bottom;
+ background-size: 100%;
+ width: 100%;
+ height: 100%; 
+}
+/* Altura de Columna */
+div[class*="columna"]{
+  min-height: 20rem;
+  
+}
+div[class*="bloque"]{
+  height: 25rem;
+}
+
+/* Tamano del Titulo */
+.titulo{
+	font-size: 35px;
+}
+
+/* borde de los cuadros de columnas */
+.responsive-img{
+  border: 0.0rem solid #ffffff;
+  border-radius: 15px;
+  width: 880px;
+}
